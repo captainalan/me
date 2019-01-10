@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <TopBar>
-          <a href="#top">Home</a> 
+          <a href="#top">Top</a> 
           <a href="#about">About</a> 
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
@@ -20,75 +20,83 @@ class App extends Component {
 
         <div className="TopBanner"></div>
         <div className="Name">Alan L. Wong</div>
-        <div className="TagLine">uhh... よろしくおねがいします</div>
+        <div className="TagLine">aspiring architect of the internet</div>
 
         <div className="MainFlexContainer">
           <AboutMe 
-            profile_img_src={ require("./github_profile.png") } 
+            profile_img_src={ require("./images/github_profile.png") } 
           >
-            <p>
-              I am a full-stack web developer based in Northern California. I 
-              mainly work on front-end things using vanilla JavaScript, 
-              HTML/CSS, and React.js. I do general programming in Python.
-              I am also experienced working with many other tools, including R 
-              (commonly used in the social sciences for data analysis and 
-              visualization), Haskell (a functional programming language), and 
-              even Prolog. I also like "old school" UNIX tools like Makefiles, 
-              bash shell scripts, and the glorious emacs text editor (in evil 
-              mode).
-            </p>
-            <p>
-              Prior to working in software, I completed a double major (BA x2) 
-              in Philosophy and East Asian Languages at University of Southern 
-              California (USC). I then completed an Masters in Linguistics (MA) at 
-              the University of California, Davis (UCD).
-            </p>
-            <p>
-              With extensive experience shuffling abstractions (via philosophy) and 
-              arbitrary signs (natural language), I feel right at home writing code. 
-            </p>
-            <p className="Highlighted">
-              Currently, I'm seeking full time employment in a web development 
-              position.
-            </p>
-
-            <p>When I'm not pressing buttons on computers, I enjoy making friends and learning foreign languages. (Link to Kaiwa Hour (会話アワー)).</p>
+            <p>I am a full-stack web developer based in Northern California. I mainly work on front-end things using vanilla JavaScript, HTML/CSS, and React.js. On the back-end I have worked with Node.js, Express.js, SQL, and MongoDB. I do general programming in Python. I also have experience working with shell scripts, Makefiles, C++, R, Lisp, Haskell, and (SWI) Prolog.</p>
+            <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying foreign languages and linguistics), I am now making ends meet as a freelance programmer. </p>
+            <p><span className="Highlighted">Currently, I'm seeking full time employment in a web development position.</span></p>
           </AboutMe>
           <Portfolio>
-            <p>
-              Here are some samples of my work. All of these projects are 
-              open source—see more code on 
-              my <a href="https://github.com/captainalan">Github</a> profile.
-              The code for this website too can be found on Github!
-            </p> 
+            <p>Here are some samples of my work. As a graduate student, I served as a (solo) instructor for one summer course and as a teaching assistant for many courses including Introduction to Linguistics and Computational Linguistics. Accordingly, much of the work featured here addresses education-related problems.</p>
 
             <h3>Web Design & Programming</h3>
-            <p>Maybe put a carousel here showing some stuff</p>
-            <p>(Offer a short description of each project.)</p>
+            <p>All of these projects are open source—see more code on my <a href="https://github.com/captainalan">Github</a> profile.</p>
+
+            <div className="Projects">
+              <h4><a href="https://github.com/captainalan/exam-clock">Exam Clock</a></h4> 
+              <p className="Description">Display the time for students during exams on large displays. Created with React.js.</p>
+
+              <h4><a href="https://captainalan.github.io/exam-version-generator/">Exam Version Generator</a></h4>
+              <p className="Description">Make multiple versions of an exam from a question set stored in JSON format. Written in Python.</p>
+
+              <h4><a href="https://captainalan.github.io/bilingual-text/">Bilingual Text</a></h4>
+              <p className="Description">Built with plain HTML/CSS/JavaScript.</p>
+
+              <h4><a href="https://github.com/captainalan/exam-evaluation-made-easy-2/blob/master/Midterm%20Score%20Analysis.ipynb">Midterm Score Analysis</a></h4>
+              <p className="Description">Basic statistical analysis and data visualization. Made using a Jupyter notebook.</p>
+            </div>
+            <p><b>Note</b>: The code for this website can be found on my Github too! <span role="img" aria-label="sparkles">✨✨✨</span></p>
 
             <h3>Writing & Editing</h3>
-
-            <p>
-                As a graduate student, I served as a (solo) instructor for one summer course and as a teaching assistant for many courses including Introduction to Linguistics, Computational Linguistics, and...
-            </p>
-
-            <p>(Some publications. Maybe my early LSA paper? ISS work?)</p>
-
-            <p>
-              I also do ghost writing and actively maintain a number of anonymous 
-              blogs—you'll have to trust me here; linking those pieces would make them
-              not so anonymous now, wouldn't it?!
-            </p>
+            <p>Below are some (published) samples of my writing:</p>
+            <ul>
+              <li><a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/3702">"Indefinite markers, grammaticalization, and language contact phenomena in Chinese"</a> (2016)</li>
+              <li><a href="http://socialsciences.ucdavis.edu/@@search?SearchableText=Alan+wong">Articles for the Institute for Social Sciences at UC Davis</a> (2017) </li>
+            </ul>
+            <p>Additionally, I do <a href="https://en.wikipedia.org/wiki/Ghostwriter">ghostwriting</a> and actively maintain a number of anonymous blogs—you'll have to trust me here. Linking those pieces would make them not so anonymous now, wouldn't it?! <span role="img" aria-label="lol">😛</span></p>
 
             <h3>Graphics & Artwork</h3>
             <p>I do graphics/artwork mainly as a hobby, making things like
               greeting cards for friends and family and photo manipulations to 
               amuse myself.
             </p>
+            <div className="ArtExample">
+              <img 
+                alt="bird"
+                src={ require("./images/2015 mothers day card.png") } 
+                height="300px"
+                width="400px"
+              />
+              <p>
+                A cute card I made for my mother
+              </p>
+            </div>
+            <div className="ArtExample">
+              <img 
+                alt="bird"
+                src={ require("./images/egghead-davis.jpg") } 
+              />
+              <p>
+                Me as an egghead
+              </p>
+            </div>
+            <p>I work on graphics mostly with <a href="https://www.gimp.org/">GIMP </a> (2D, raster), <a href="https://inkscape.org/">Inkscape</a> (2D, vector) and <a href="https://www.blender.org/">Blender</a> (3D).</p>
 
-            <p>
-              (Showcase some of my early Davis photo edits)
-            </p>
+            <h3>Languages</h3>
+            <p>My formal education was largely motivated by a fascination of the diversity of human communication. Born into an monolingual English-speaking family, I took it upon myself to learn Spanish in my highschool years and then (Mandarin) Chinese and Korean in my undergraduate years.</p>
+            <p>Now, I am studying Japanese as a leader of <a href="https://www.facebook.com/kaiwahour">Kaiwa Hour</a> (Japanese/English Conversation Club). I am picking up French and Indonesian as well as I follow world events. I can translate Chinese, Japanese, Korean, and Spanish to English and frequently do so in informal settings.</p>
+            <div className="Projects">
+              <span lang="zh-Hans">你说普通话吗？ </span>
+              <span lang="jp">日本語が話せますか？ </span>
+              <span lang="kr">한국어를 할 수 있어요? </span>
+              <span lang="es">¿Se habla usted español? </span>
+            </div>
+            <p>Given my experience working with many different languages and writing systems, I am well informed to optimize your website for multilingual audiences.</p>
+
           </Portfolio>
           <Contact>
             <p>Find me on <a href="https://github.com/captainalan">Github</a> or <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a>. Business inquires are welcome. You can expect a reply within 48 hours during the work week.</p>
@@ -102,7 +110,7 @@ class App extends Component {
   }
 }
 
-function TopBar(props) {
+const TopBar = (props) => {
   return(
     <div className="TopBar">
       {props.children}
@@ -110,50 +118,24 @@ function TopBar(props) {
   );
 }
 
-class AboutMe extends Component {
+const AboutMe = (props) => {
+  return(
+    <div className="AboutMe">
+      <img 
+        alt="Profile"
+        className="ProfilePic"
+        src = {props.profile_img_src}
+        height="300px"
+        width="300px"
+      />
+      <h2 id="about">About me</h2>
 
-  toggleMoreAboutMe() {
-    this.setState( {showMore: !this.state.showMore} ); //hmm...
-  }
-  constructor(props) {
-    super(props);
-    this.state = {
-      showMore: false
-    };
-
-    this.toggleMoreAboutMe = this.toggleMoreAboutMe.bind(this);
-  }
-
-  render() {
-    return(
-      <div className="AboutMe">
-        <img 
-          alt="Profile"
-          className="ProfilePic"
-          src = {this.props.profile_img_src}
-          height="300px"
-          width="300px"
-        />
-        <h2 id="about">About me</h2>
-
-        {/* Display the first 3 paragraphs or so */}
-        {this.props.children}
-
-        <div className="ReadMore">
-          <div className={this.state.showMore ? "showing" : "hidden"}>
-            (Display the reamining text of this.props.children).
-          </div>
-          {this.state.showMore 
-            ? <button onClick={this.toggleMoreAboutMe}>Hide more.</button> 
-            : <button onClick={this.toggleMoreAboutMe}>Read more...</button>}
-        </div>
-      </div>
-    )
-  }
+      {props.children}
+    </div>
+  )
 }
 
-
-function Portfolio(props) {
+const Portfolio = (props) => {
   return(
     <div className="Portfolio" id="portfolio">
       <h2>Portfolio</h2>
@@ -162,7 +144,7 @@ function Portfolio(props) {
   )
 }
 
-function Contact(props) {
+const Contact = (props) => {
   return(
     <div className="Contact" id="contact">
       <h2>Contact</h2>
@@ -171,7 +153,7 @@ function Contact(props) {
   )
 }
 
-function ReactAd(props) {
+const ReactAd = (props) => {
   return(
     <div className="ReactAd">
       This website was bootstrapped with 
@@ -181,7 +163,7 @@ function ReactAd(props) {
   )
 }
 
-function Footer(props) {
+const Footer = (props) => {
   return(
     <div className="Footer">
       <div className="Copyright">Copyright © 2018-2019</div>

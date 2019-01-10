@@ -15,7 +15,7 @@ class App extends Component {
           <a href="#about">About</a> 
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
-          <span>Updated 01/2019</span>
+          {/*<span>Updated 01/2019</span>*/}
         </TopBar>
 
         <div className="TopBanner"></div>
@@ -68,8 +68,8 @@ class App extends Component {
               <img 
                 alt="bird"
                 src={ require("./images/2015 mothers day card.png") } 
-                height="300px"
-                width="400px"
+                height="225px"
+                width="300px"
               />
               <p>
                 A cute card I made for my mother
@@ -79,6 +79,8 @@ class App extends Component {
               <img 
                 alt="bird"
                 src={ require("./images/egghead-davis.jpg") } 
+                height="270px"
+                width="298px"
               />
               <p>
                 Me as an egghead

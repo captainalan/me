@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: #F2F2F2;
+  color: black;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
@@ -7,19 +9,148 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.AboutMe {
+  margin: 10px;
+}
+
+.AboutMe .ProfilePic {
+  margin: 15px;
+  float: left;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Contact {
+  margin: 10px;
+  background-color: #fff;
+  padding: 15px;
+  width: 100%;
+}
+
+.Contact .email {
+  font-family: monospace;
+  font-size: 80%;
+  color: #f2f2f2;
+  background: #333;
+  padding: 4px;
+}
+
+.Contact a {
+  color: #333;
+  padding: 6px;
+}
+
+.Contact a:visited {
+  color: #333;
+}
+
+.Contact a:hover {
+  background: #aaa;
+}
+
+.Highlighted {
+  background: rgb(255, 255, 215);
+  padding: 6px;
+}
+
+.MainFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Portfolio {
+  margin: 10px;
+}
+
+.ReactAd {
+  font-size: 70%;
+  color: grey;
+  margin: 10px;
+  padding: 15px;
+}
+
+.ReadMore button {
+  border: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  background: #f2f2f2;
+  color: grey;
+  font-size: 100%;
+}
+.ReadMore .showing {
+  display: block;
+  color: black;
+}
+.ReadMore .hidden {
+  display: none;
+  color: red;
+}
+
+.TopBanner {
+  margin-top: 55px; /* Add a top margin to avoid content overlay */
+}
+
+.Name {
+  font-weight: bolder;
+  text-align: center;
+  color: #222; /* Just for testing */
+  font-size: 250%;
+  padding-top: 30px;
+}
+
+.TagLine {
+  text-align: center;
+  color: #777777;
+  font-size: 150%;
+}
+
+.TopBar {
+  overflow: hidden;
+  background-color: #333; /* Change this later */
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full Width */
+}
+
+.TopBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+}
+
+.TopBar span {
+  float: right;
+  display: block;
+  background: black;
+  color: #f2f2f2;
+  padding: 14px 16px; 
+}
+
+/* Change background on mouse-over */
+.TopBar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.Footer {
+  background-color: #D3D3D3;
+  display: flex;
+  flex-direction: row;
+  margin: 10px; /* Same as MainFlexContainer */
+  padding: 15px; /* Nice cushion */
+}
+.Footer .Copyright {
+  color: black;
+}
+.Footer .CopyrightName {
+  margin-left: 30px;
+  color: black;
 }
 
 @keyframes App-logo-spin {

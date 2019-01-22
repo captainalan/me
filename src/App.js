@@ -26,9 +26,9 @@ class App extends Component {
           <AboutMe 
             profile_img_src={ require("./images/github_profile.png") } 
           >
-            <p>I am a full-stack web developer based in Northern California. I mainly work on front-end things using vanilla JavaScript, HTML/CSS, and React.js. On the back-end I have worked with Node.js, Express.js, SQL, and MongoDB. I do general programming in Python. I also have experience working with shell scripts, Makefiles, C++, R, Lisp, Haskell, and (SWI) Prolog.</p>
-            <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying foreign languages and linguistics), I am now making ends meet as a freelance programmer. </p>
-            <p><span className="Highlighted">Currently, I'm seeking full time employment in a web development position.</span></p>
+            <p>I am a full-stack web developer based in Northern California. I mainly work on front-end things using vanilla JavaScript, HTML/CSS, and React.js. On the back-end I have worked with Node.js, Express.js, SQL, and MongoDB. I do general programming—like text processing, math problems, and data analysis—in Python. I also have experience working with shell scripts, Makefiles, C++, R, Lisp, Haskell, and (SWI) Prolog.</p>
+            <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying <a href="#languages">foreign languages</a> and linguistics), I feel great solving problems with computers! <span className="Highlighted">Currently, I'm interviewing to work as a full-time programmer!</span></p>
+            <p> <a href="#contact">Contact</a> me if you are interested in hiring me or working with me in some other way.</p>
           </AboutMe>
           <Portfolio>
             <p>Here are some samples of my work. As a graduate student, I served as a (solo) instructor for one summer course and as a teaching assistant for many courses including Introduction to Linguistics and Computational Linguistics. Accordingly, much of the work featured here addresses education-related problems.</p>
@@ -45,6 +45,9 @@ class App extends Component {
 
               <h4><a href="https://captainalan.github.io/bilingual-text/">Bilingual Text</a></h4>
               <p className="Description">Built with plain HTML/CSS/JavaScript.</p>
+
+              <h4><a href="https://captainalan.github.io/chinese-conversation/">Chinese Conversation Club Website(WIP)</a></h4>
+              <p className="Description">Website for a (made up) organization. Here is the <a href="https://github.com/captainalan/chinese-conversation">Github repository</a>.</p>
 
               <h4><a href="https://github.com/captainalan/exam-evaluation-made-easy-2/blob/master/Midterm%20Score%20Analysis.ipynb">Midterm Score Analysis</a></h4>
               <p className="Description">Basic statistical analysis and data visualization. Made using a Jupyter notebook.</p>
@@ -87,7 +90,7 @@ class App extends Component {
               </p>
             </div>
             <p>I work on graphics mostly with <a href="https://www.gimp.org/">GIMP </a> (2D, raster), <a href="https://inkscape.org/">Inkscape</a> (2D, vector) and <a href="https://www.blender.org/">Blender</a> (3D).</p>
-
+            <a id="languages" href="#languages" className="Anchor">これが見える？！</a>
             <h3>Languages</h3>
             <p>My formal education was largely motivated by a fascination of the diversity of human communication. Born into an monolingual English-speaking family, I took it upon myself to learn Spanish in my highschool years and then (Mandarin) Chinese and Korean in my undergraduate years.</p>
             <p>Now, I am studying Japanese as a leader of <a href="https://www.facebook.com/kaiwahour">Kaiwa Hour</a> (Japanese/English Conversation Club). I am picking up French and Indonesian as well as I follow world events. I can translate Chinese, Japanese, Korean, and Spanish to English and frequently do so in informal settings.</p>
@@ -123,6 +126,7 @@ const TopBar = (props) => {
 const AboutMe = (props) => {
   return(
     <div className="AboutMe">
+      <a className="Anchor" href="#about" id="about">Might you be using a screen reader?</a>
       <img 
         alt="Profile"
         className="ProfilePic"
@@ -130,7 +134,7 @@ const AboutMe = (props) => {
         height="300px"
         width="300px"
       />
-      <h2 id="about">About me</h2>
+      <h2>About me</h2>
 
       {props.children}
     </div>
@@ -139,7 +143,8 @@ const AboutMe = (props) => {
 
 const Portfolio = (props) => {
   return(
-    <div className="Portfolio" id="portfolio">
+    <div className="Portfolio">
+      <a className="Anchor" href="#portfolio" id="portfolio">Or inspecting this site's source code?</a>
       <h2>Portfolio</h2>
       {props.children}
     </div>
@@ -148,7 +153,8 @@ const Portfolio = (props) => {
 
 const Contact = (props) => {
   return(
-    <div className="Contact" id="contact">
+    <div className="Contact">
+      <a className="Anchor" href="#contact" id="contact">The text you are reading should be hidden.</a>
       <h2>Contact</h2>
       {props.children}
     </div>

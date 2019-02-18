@@ -27,8 +27,8 @@ class App extends Component {
             profile_img_src={ require("./images/github_profile.png") } 
           >
             <p>I am a full-stack web developer based in Northern California. I mainly work on front-end things using vanilla JavaScript, HTML/CSS, and React.js. On the back-end I have worked with Node.js, Express.js, SQL, and MongoDB. I do general programming—like text processing, math problems, and data analysis—in Python. I also have experience working with shell scripts, Makefiles, C++, R, Lisp, Haskell, and (SWI) Prolog.</p>
-            <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying <a href="#languages">foreign languages</a> and linguistics), I feel great solving problems with computers! <span className="Highlighted">Currently, I'm interviewing to work as a full-time programmer!</span></p>
-            <p> <a href="#contact">Contact</a> me if you are interested in hiring me or working with me in some other way.</p>
+            <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying <a href="#languages">foreign languages</a> and linguistics), I feel great solving problems with computers! </p>
+            <p><span className="Highlighted">Currently, I'm looking for work as a full-time programmer</span> <a href="#contact">Contact</a> me if you are interested in hiring me or working with me in some other way.</p>
           </AboutMe>
           <Portfolio>
             <p>Here are some samples of my work. As a graduate student, I served as a (solo) instructor for one summer course and as a teaching assistant for many courses including Introduction to Linguistics and Computational Linguistics. Accordingly, much of the work featured here addresses education-related problems.</p>
@@ -42,9 +42,6 @@ class App extends Component {
 
               <h4><a href="https://captainalan.github.io/exam-version-generator/">Exam Version Generator</a></h4>
               <p className="Description">Make multiple versions of an exam from a question set stored in JSON format. Written in Python.</p>
-
-              <h4><a href="https://captainalan.github.io/bilingual-text/">Bilingual Text</a></h4>
-              <p className="Description">Built with plain HTML/CSS/JavaScript.</p>
 
               <h4><a href="https://captainalan.github.io/chinese-conversation/">Chinese Conversation Club Website(WIP)</a></h4>
               <p className="Description">Website for a (made up) organization. Here is the <a href="https://github.com/captainalan/chinese-conversation">Github repository</a>.</p>

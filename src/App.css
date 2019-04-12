@@ -8,12 +8,20 @@
 .App {
   background-color: #F2F2F2;
   color: black;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1.2vmin);
   font-family: 'Noto Sans JP', sans-serif;
 }
 
 .App a {
   text-decoration: none;
+}
+
+.App p {
+  text-indent: 2em;
+}
+
+.App h1, h2, h3, h4, h5 {
+  text-indent: 1em;
 }
 
 .App-logo {
@@ -22,11 +30,12 @@
 }
 
 .AboutMe {
-  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .AboutMe .ProfilePic {
-  margin: 15px;
+  margin: 5px;
   padding: 10px;
   float: left;
 }
@@ -61,7 +70,7 @@
 
 .Contact a {
   color: #333;
-  padding: 6px;
+  padding: 3px;
 }
 
 .Contact a:visited {

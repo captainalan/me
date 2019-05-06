@@ -61,7 +61,7 @@ class App extends Component {
               <li><a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/3702">"Indefinite markers, grammaticalization, and language contact phenomena in Chinese"</a> (2016)</li>
               <li><a href="http://socialsciences.ucdavis.edu/@@search?SearchableText=Alan+wong">Articles for the Institute for Social Sciences at UC Davis</a> (2017) </li>
             </ul>
-            <p>Here are some pieces I have published on <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a></p>:
+            <p>Here are some pieces I have published on <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a>:</p>
             <ul>
               <li><a href="https://www.linkedin.com/pulse/beating-bottlenecks-alan-wong/">"Beating Bottlenecks"</a> (May 2019)</li>
               <li><a href="https://www.linkedin.com/pulse/revisiting-old-tools-new-results-alan-wong/">"Revisiting Old Tools for New Results"</a> (April 2019)</li>
@@ -97,7 +97,7 @@ class App extends Component {
                 Me as an egghead
               </p>
             </div>
-            <p>I work on graphics mostly with <a href="https://www.gimp.org/">GIMP </a> (2D, raster), <a href="https://inkscape.org/">Inkscape</a> (2D, vector) and <a href="https://www.blender.org/">Blender</a> (3D).</p>
+            <p>Usually, I work with <a href="https://www.gimp.org/">GIMP </a> (2D, raster), <a href="https://inkscape.org/">Inkscape</a> (2D, vector) and <a href="https://www.blender.org/">Blender</a> (3D). I would work with Adobe software if you hired me/bought me a subscription to do so.</p>
             <a id="languages" href="#languages" className="Anchor">これが見える？！</a>
             <h3>Languages</h3>
             <p>My formal education was largely motivated by a fascination of the diversity of human communication. Born into an monolingual English-speaking family, I took it upon myself to learn Spanish in my highschool years and then (Mandarin) Chinese and Korean in my undergraduate years.</p>

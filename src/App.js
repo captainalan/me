@@ -26,7 +26,7 @@ class App extends Component {
           <AboutMe 
             profile_img_src={ require("./images/github_profile.png") } 
           >
-            <p>I am a full-stack web developer based in Northern California. I mainly work on web programming things using vanilla JavaScript, HTML/CSS, and Node with popular solutions like Express.js and React. I do general programming—like text processing, math problems, and data analysis in Python and R. I make extensive use of standard UNIX tools (e.g. grep, bash, Makefiels). For fun, I am currently studying Haskell and applications of functional programming techniques.</p>
+            <p>I am a full-stack web developer based in Northern California. I mainly work on web programming things using vanilla JavaScript, HTML/CSS, and Node with popular solutions like Express.js and React. I do general programming—like text processing, math problems, and data analysis in Python and R. I make extensive use of standard UNIX tools (e.g. grep, bash, Makefiles).</p>
             <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying <a href="#languages">foreign languages</a> and linguistics), I feel great solving problems with computers! </p>
             <p>Currently, I'm working (part-time) as a Teaching Assistant for the UC Davis Coding Bootcamp. <span className="Highlighted">I'm still looking for full-time work as a programmer in the area.</span> <a href="#contact">Contact</a> me if you are interested in hiring me or working with me in some other way.</p>
           </AboutMe>
@@ -37,6 +37,9 @@ class App extends Component {
             <p>All of these projects are open source—see more code on my <a href="https://github.com/captainalan">Github</a> profile.</p>
 
             <div className="Projects">
+
+              <h4><a href="https://github.com/captainalan/exam-version-generator/">Exam Version Generator</a></h4>
+              <p className="Description">Flask App for making multiple versions of an exam from a question set stored in JSON format. Written in Python.</p>
 
               <h4><a href="https://captainalan.github.io/chinese-conversation/">Chinese Conversation Club Website (WIP)</a></h4>
               <p className="Description">Website for a (made up) organization. Here is the <a href="https://github.com/captainalan/chinese-conversation">Github repository</a>.</p>
@@ -49,10 +52,6 @@ class App extends Component {
 
               <h4><a href="https://github.com/captainalan/exam-evaluation-made-easy-2/blob/master/Midterm%20Score%20Analysis.ipynb">Midterm Score Analysis</a></h4>
               <p className="Description">Basic statistical analysis and data visualization. Made using a Jupyter notebook.</p>
-
-              <h4><a href="https://captainalan.github.io/exam-version-generator/">Exam Version Generator</a></h4>
-              <p className="Description">Make multiple versions of an exam from a question set stored in JSON format. Written in Python.</p>
-
             </div>
             <p><b>Note</b>: The code for this website can be found on my Github too! <span role="img" aria-label="sparkles">✨✨✨</span></p>
 
@@ -61,6 +60,12 @@ class App extends Component {
             <ul>
               <li><a href="https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/3702">"Indefinite markers, grammaticalization, and language contact phenomena in Chinese"</a> (2016)</li>
               <li><a href="http://socialsciences.ucdavis.edu/@@search?SearchableText=Alan+wong">Articles for the Institute for Social Sciences at UC Davis</a> (2017) </li>
+            </ul>
+            <p>Here are some pieces I have published on <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a></p>:
+            <ul>
+              <li><a href="https://www.linkedin.com/pulse/beating-bottlenecks-alan-wong/">"Beating Bottlenecks"</a> (May 2019)</li>
+              <li><a href="https://www.linkedin.com/pulse/revisiting-old-tools-new-results-alan-wong/">"Revisiting Old Tools for New Results"</a> (April 2019)</li>
+              <li><a href="https://www.linkedin.com/pulse/hello-tiredness-tell-me-more-alan-wong/">"Hello tiredness; tell me more"</a> (April 2019)</li>
             </ul>
             <p>Additionally, I do <a href="https://en.wikipedia.org/wiki/Ghostwriter">ghostwriting</a> and actively maintain a number of anonymous blogs—you'll have to trust me here. Linking those pieces would make them not so anonymous now, wouldn't it?! <span role="img" aria-label="lol">😛</span></p>
 

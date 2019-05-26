@@ -26,9 +26,8 @@ class App extends Component {
           <AboutMe 
             profile_img_src={ require("./images/github_profile.png") } 
           >
-            <p>I am a full-stack web developer based in Northern California. I mainly work on web programming things using vanilla JavaScript, HTML/CSS, and Node with popular solutions like Express.js and React. I do general programming—like text processing, math problems, and data analysis in Python and R. I make extensive use of standard UNIX tools (e.g. grep, bash, Makefiles).</p>
+            <p>I am a full-stack web developer based in Northern California. Currently, I'm working as a developer for <a href="https://growdnd.com">GROW Design & Development</a> and as a Teaching Assistant for the UC Davis Coding Bootcamp. I mainly work on web programming things using vanilla JavaScript, HTML/CSS, and Node with popular solutions like Express.js and React. I do general programming—like text processing, math problems, and data analysis in Python and R. I make extensive use of standard UNIX tools (e.g. grep, bash, Makefiles).</p>
             <p>Prior to working in software, I completed a double major (BA x2) in Philosophy and East Asian Languages at the University of Southern California (USC). I then completed an Masters in Linguistics (MA) at the University of California, Davis (UCD). With extensive experience shuffling abstractions (via studying philosophy) and arbitrary signs (via studying <a href="#languages">foreign languages</a> and linguistics), I feel great solving problems with computers! </p>
-            <p>Currently, I'm working (part-time) as a Teaching Assistant for the UC Davis Coding Bootcamp. <span className="Highlighted">I'm still looking for full-time work as a programmer in the area.</span> <a href="#contact">Contact</a> me if you are interested in hiring me or working with me in some other way.</p>
           </AboutMe>
           <Portfolio>
             <p>Here are some samples of my work. As a graduate student, I served as a (solo) instructor for one summer course and as a teaching assistant for many courses including Introduction to Linguistics and Computational Linguistics. Accordingly, much of the work featured here addresses education-related problems.</p>
@@ -38,20 +37,18 @@ class App extends Component {
 
             <div className="Projects">
 
-              <h4><a href="https://github.com/captainalan/exam-version-generator/">Exam Version Generator</a></h4>
-              <p className="Description">Flask App for making multiple versions of an exam from a question set stored in JSON format. Written in Python.</p>
+              <h4><a href="https://kaiwahour.github.io/home/">Kaiwa Hour (Japanese/English Conversation Group) Website</a></h4>
+              <p className="Description">This is a website build in React for a (real) organization. In addition to doing much of the coding for this website, I am acting as the project lead for this open source project. The GitHub repository can be found <a href="https://github.com/kaiwahour/home">here</a>.</p>
 
-              <h4><a href="https://captainalan.github.io/chinese-conversation/">Chinese Conversation Club Website (WIP)</a></h4>
-              <p className="Description">Website for a (made up) organization. Here is the <a href="https://github.com/captainalan/chinese-conversation">Github repository</a>.</p>
+              <h4><a href="https://github.com/captainalan/exam-version-generator/">Exam Version Generator</a></h4>
+              <p className="Description">This is a Flask App (Python 3) for making multiple versions of an exam from a question set stored in JSON format. This project has been used in production for generating exams at a major university.</p>
 
               <h4><a href="https://github.com/captainalan/MERN-quickstart">MERN-quickstart</a></h4>
-              <p className="Description">A web app making use of MongoDB (database), Express (server), React (views), and Node (runtime).</p>
+              <p className="Description">This is boilerplate web app code using the MERN Stack; that is, MongoDB (database), Express (server), React (views), and Node (runtime). This was coded over a weekend when I found out I had to use the MERN stack for a job.</p>
 
-              <h4><a href="https://github.com/captainalan/exam-clock">Exam Clock</a></h4> 
-              <p className="Description">Display the time for students during exams on large displays. Created with React.js.</p>
+              <h4><a href="https://captainalan.github.io/exam-clock/">Exam Clock</a></h4> 
+              <p className="Description">This app display the time for students during exams on large displays. Created with React.js. Has been used with real university exams. See the source code online at <a href="https://github.com/captainalan/exam-clock">GitHub</a>.</p>
 
-              <h4><a href="https://github.com/captainalan/exam-evaluation-made-easy-2/blob/master/Midterm%20Score%20Analysis.ipynb">Midterm Score Analysis</a></h4>
-              <p className="Description">Basic statistical analysis and data visualization. Made using a Jupyter notebook.</p>
             </div>
             <p><b>Note</b>: The code for this website can be found on my Github too! <span role="img" aria-label="sparkles">✨✨✨</span></p>
 
@@ -112,7 +109,7 @@ class App extends Component {
 
           </Portfolio>
           <Contact>
-            <p>Find me on <a href="https://github.com/captainalan">Github</a> or <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a>. Business inquires are welcome. You can expect a reply within 48 hours during the work week.
+            <p>Find me on <a href="https://github.com/captainalan">GitHub</a> or <a href="https://www.linkedin.com/in/alan-wong-bb342569/">LinkedIn</a>. Business inquires are welcome. You can expect a reply within 48 hours during the work week.
                Contact me directly at <span className="email">captainalan at gmail dot com</span>. </p>
           </Contact>
           <ReactAd />

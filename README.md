@@ -23,4 +23,4 @@ Updates planned for this project include
 
 - [ ] Put content on external "API" (host (static) JSON on Github)
 - [ ] Use AJAX in React hooks to get content
-- [ ] Refactor components into separate files (try making a `src/components/` directory)
+- [x] Refactor components into separate files (try making a `src/components/` directory)

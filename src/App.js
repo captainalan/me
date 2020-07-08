@@ -1,10 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
-// I need to pass component content as props rather than writing it directly
-// into the code...
-// Use children props
+import TopBar from './components/TopBar';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import ReactAd from './components/ReactAd';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -114,71 +116,6 @@ function App() {
         <ReactAd />
       </div>
       <Footer />
-    </div>
-  );
-}
-
-const TopBar = (props) => {
-  return(
-    <div className="TopBar">
-      {props.children}
-    </div>
-  );
-}
-
-const AboutMe = (props) => {
-  return(
-    <div className="AboutMe">
-      <a className="Anchor" href="#about" id="about">Might you be using a screen reader?</a>
-      <img 
-        alt="Profile"
-        className="ProfilePic"
-        src = {props.profile_img_src}
-        height="300px"
-        width="300px"
-      />
-      <h2>About me</h2>
-
-      {props.children}
-    </div>
-  )
-}
-
-const Portfolio = (props) => {
-  return(
-    <div className="Portfolio">
-      <a className="Anchor" href="#portfolio" id="portfolio">Or inspecting this site's source code?</a>
-      <h2>Portfolio</h2>
-      {props.children}
-    </div>
-  )
-}
-
-const Contact = (props) => {
-  return(
-    <div className="Contact">
-      <a className="Anchor" href="#contact" id="contact">The text you are reading should be hidden.</a>
-      <h2>Contact</h2>
-      {props.children}
-    </div>
-  )
-}
-
-const ReactAd = (props) => {
-  return(
-    <div className="ReactAd">
-      This website was bootstrapped with 
-      Facebook's <code>create-react-app</code>.
-      {/* <img src={logo} /> */}
-    </div>
-  )
-}
-
-const Footer = (props) => {
-  return(
-    <div className="Footer">
-      <div className="Copyright">Copyright © 2018-2019</div>
-      <div className="CopyrightName">Alan L. Wong</div>
     </div>
   );
 }

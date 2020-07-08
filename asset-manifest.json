@@ -1,16 +1,25 @@
 {
-  "main.css": "/me/static/css/main.6b762a5e.chunk.css",
-  "main.js": "/me/static/js/main.b8b00475.chunk.js",
-  "main.js.map": "/me/static/js/main.b8b00475.chunk.js.map",
-  "runtime~main.js": "/me/static/js/runtime~main.7f73a39c.js",
-  "runtime~main.js.map": "/me/static/js/runtime~main.7f73a39c.js.map",
-  "static/js/2.c37d9d9a.chunk.js": "/me/static/js/2.c37d9d9a.chunk.js",
-  "static/js/2.c37d9d9a.chunk.js.map": "/me/static/js/2.c37d9d9a.chunk.js.map",
-  "index.html": "/me/index.html",
-  "precache-manifest.a5c570b833f9ef9c7b99b5d2844c3d1c.js": "/me/precache-manifest.a5c570b833f9ef9c7b99b5d2844c3d1c.js",
-  "service-worker.js": "/me/service-worker.js",
-  "static/css/main.6b762a5e.chunk.css.map": "/me/static/css/main.6b762a5e.chunk.css.map",
-  "static/media/2015 mothers day card.png": "/me/static/media/2015 mothers day card.7183317e.png",
-  "static/media/egghead-davis.jpg": "/me/static/media/egghead-davis.fb4a4b59.jpg",
-  "static/media/github_profile.png": "/me/static/media/github_profile.630e7cd1.png"
+  "files": {
+    "main.css": "/me/static/css/main.f6f8aad2.chunk.css",
+    "main.js": "/me/static/js/main.febff3c4.chunk.js",
+    "main.js.map": "/me/static/js/main.febff3c4.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.aea40d98.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.aea40d98.js.map",
+    "static/js/2.cc500341.chunk.js": "/me/static/js/2.cc500341.chunk.js",
+    "static/js/2.cc500341.chunk.js.map": "/me/static/js/2.cc500341.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.de3ee4261184252f4493e47ad526794b.js": "/me/precache-manifest.de3ee4261184252f4493e47ad526794b.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.f6f8aad2.chunk.css.map": "/me/static/css/main.f6f8aad2.chunk.css.map",
+    "static/js/2.cc500341.chunk.js.LICENSE.txt": "/me/static/js/2.cc500341.chunk.js.LICENSE.txt",
+    "static/media/2015 mothers day card.png": "/me/static/media/2015 mothers day card.7183317e.png",
+    "static/media/egghead-davis.jpg": "/me/static/media/egghead-davis.fb4a4b59.jpg",
+    "static/media/github_profile.png": "/me/static/media/github_profile.630e7cd1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aea40d98.js",
+    "static/js/2.cc500341.chunk.js",
+    "static/css/main.f6f8aad2.chunk.css",
+    "static/js/main.febff3c4.chunk.js"
+  ]
 }

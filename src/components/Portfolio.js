@@ -51,7 +51,7 @@ function Portfolio(props) {
 <div className="ArtExample">
   <img 
     alt="bird"
-    src="me/images/2015 mothers day card.png"
+    src="/me/images/2015 mothers day card.png"
     height="225px"
     width="300px"
   />
@@ -62,7 +62,7 @@ function Portfolio(props) {
 <div className="ArtExample">
   <img 
     alt="bird"
-    src="me/images/egghead-davis.jpg"
+    src="/me/images/egghead-davis.jpg"
     height="270px"
     width="298px"
   />

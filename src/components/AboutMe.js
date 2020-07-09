@@ -7,13 +7,14 @@ function AboutMe(props) {
         <img 
           alt="Profile"
           className="ProfilePic"
-          src = {props.profile_img_src}
+          src={props.profile_image}
           height="300px"
           width="300px"
         />
-        <h2>About me</h2>
-  
-        {props.children}
+        <h2>{props.title}</h2>
+        {props.text.map(p => <p>{p}</p>)}
+          
+          
       </div>
     )
   }

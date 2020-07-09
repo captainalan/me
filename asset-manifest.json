@@ -1,25 +1,22 @@
 {
   "files": {
     "main.css": "/me/static/css/main.f6f8aad2.chunk.css",
-    "main.js": "/me/static/js/main.79636569.chunk.js",
-    "main.js.map": "/me/static/js/main.79636569.chunk.js.map",
+    "main.js": "/me/static/js/main.a3d73b3a.chunk.js",
+    "main.js.map": "/me/static/js/main.a3d73b3a.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.aea40d98.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.aea40d98.js.map",
     "static/js/2.cc500341.chunk.js": "/me/static/js/2.cc500341.chunk.js",
     "static/js/2.cc500341.chunk.js.map": "/me/static/js/2.cc500341.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.12da54ef02947009b047637580c3ca4d.js": "/me/precache-manifest.12da54ef02947009b047637580c3ca4d.js",
+    "precache-manifest.e03c0af879ab87ed6973c578ee1e485f.js": "/me/precache-manifest.e03c0af879ab87ed6973c578ee1e485f.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/main.f6f8aad2.chunk.css.map": "/me/static/css/main.f6f8aad2.chunk.css.map",
-    "static/js/2.cc500341.chunk.js.LICENSE.txt": "/me/static/js/2.cc500341.chunk.js.LICENSE.txt",
-    "static/media/2015 mothers day card.png": "/me/static/media/2015 mothers day card.7183317e.png",
-    "static/media/egghead-davis.jpg": "/me/static/media/egghead-davis.fb4a4b59.jpg",
-    "static/media/github_profile.png": "/me/static/media/github_profile.630e7cd1.png"
+    "static/js/2.cc500341.chunk.js.LICENSE.txt": "/me/static/js/2.cc500341.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aea40d98.js",
     "static/js/2.cc500341.chunk.js",
     "static/css/main.f6f8aad2.chunk.css",
-    "static/js/main.79636569.chunk.js"
+    "static/js/main.a3d73b3a.chunk.js"
   ]
 }
